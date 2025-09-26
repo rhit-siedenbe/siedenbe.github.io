@@ -1,4 +1,6 @@
+window.addEventListener("load", (e) => {
 let nav = document.createElement("nav");
+let footer = document.createElement("footer");
 nav.style.backgroundColor = "#ddffff";
 nav.style.padding="10px 20px";
 
@@ -22,3 +24,12 @@ for (let link of links) {
 nav.append(ul);
 document.body.prepend(nav);
 document.body.style.paddingTop = "60px";
+
+let handshakeLink = document.createElement("a");
+handshakeLink.href = "https://app.joinhandshake.com/users/YOUR_PROFILE_ID";
+handshakeLink.textContent = "Handshake Profile";
+handshakeLink.style.color = "#61dafb";  
+handshakeLink.className = "nav-link";
+footer.append(handshakeLink);
+document.body.append(footer);
+});
