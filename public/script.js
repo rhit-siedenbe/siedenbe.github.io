@@ -1,7 +1,7 @@
 window.addEventListener("load", (e) => {
 let nav = document.createElement("nav");
 let footer = document.createElement("footer");
-nav.style.backgroundColor = "#ddffff";
+nav.style.backgroundColor = "#800000";
 nav.style.padding="10px 20px";
 
 let ul = document.createElement("ul");
@@ -26,7 +26,7 @@ document.body.prepend(nav);
 document.body.style.paddingTop = "60px";
 
 let handshakeLink = document.createElement("a");
-handshakeLink.href = "https://app.joinhandshake.com/users/YOUR_PROFILE_ID";
+handshakeLink.href = "https://app.joinhandshake.com/profiles/uqbm37";
 handshakeLink.textContent = "Handshake Profile";
 handshakeLink.style.color = "#61dafb";  
 handshakeLink.className = "nav-link";
