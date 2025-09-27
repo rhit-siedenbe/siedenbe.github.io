@@ -30,12 +30,12 @@ body {
 #name {
     text-align: center;
 }
-
 #selfie {
     width: 800px;
     height: 700px;
 }
-#selfie-container {
+
+.selfie-container {
     display: inline-block;
     text-align: center;
 }
