@@ -28,7 +28,7 @@ document.body.style.paddingTop = "60px";
 let handshakeLink = document.createElement("a");
 handshakeLink.href = "https://app.joinhandshake.com/profiles/uqbm37";
 handshakeLink.textContent = "Handshake Profile";
-handshakeLink.style.color = "#61dafb";  
+handshakeLink.style.color = "aqua";  
 handshakeLink.className = "nav-link";
 footer.append(handshakeLink);
 document.body.append(footer);

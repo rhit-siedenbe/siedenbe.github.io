@@ -10,3 +10,17 @@
     font: bold;
     text-decoration: underline;
 }
+
+.project-container {
+    display: inline-block;
+}
+
+.project-image {
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
