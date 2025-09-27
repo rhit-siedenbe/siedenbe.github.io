@@ -29,6 +29,9 @@ body {
 }
 
 #selfie {
-    width: 100px;
-    height: 100px;
+    width: 800px;
+    height: 700px;
+}
+#selfie-container {
+    display: inline-block;
 }
