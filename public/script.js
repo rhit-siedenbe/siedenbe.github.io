@@ -23,6 +23,7 @@ for (let link of links) {
 }
 nav.append(ul);
 
+// https://pixelait.com/learn/dark-mode-in-ui-design-benefits-and-best-practices/
 let toggleButton = document.createElement("button");
 toggleButton.id = "theme-toggle";
 toggleButton.textContent = "Toggle Dark Mode ";

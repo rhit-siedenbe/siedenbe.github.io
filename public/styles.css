@@ -40,7 +40,7 @@ body {
 }
 
 .link {
-    color: #87CEEB;
+    color: #000080;
 }
 
 body.dark-mode {
@@ -61,5 +61,5 @@ body.dark-mode .nav-link:visited {
 }
 
 body.dark-mode .link {
-    color: blue
+    color: #00FFFF;
 }
