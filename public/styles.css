@@ -39,3 +39,7 @@ body {
     display: inline-block;
     text-align: center;
 }
+
+#link {
+    color: #87CEEB;
+}
