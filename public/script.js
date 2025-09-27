@@ -22,6 +22,14 @@ for (let link of links) {
     ul.append(li);
 }
 nav.append(ul);
+
+let toggleButton = document.createElement("button");
+toggleButton.id = "theme-toggle";
+toggleButton.textContent = "Toggle Dark Mode";
+toggleButton.style.marginLeft = "20px";
+nav.append(toggleButton);
+
+
 document.body.prepend(nav);
 document.body.style.paddingTop = "60px";
 
@@ -32,4 +40,9 @@ handshakeLink.style.color = "aqua";
 handshakeLink.className = "nav-link";
 footer.append(handshakeLink);
 document.body.append(footer);
+
+toggleButton.addEventListener("click", (e) => {
+    document.body.classList.toggle("dark-mode");
+})
+
 });
