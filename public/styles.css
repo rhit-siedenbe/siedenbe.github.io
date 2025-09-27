@@ -39,7 +39,7 @@ body {
     text-align: center;
 }
 
-#link {
+.link {
     color: #87CEEB;
 }
 
@@ -58,4 +58,8 @@ body.dark-mode .nav-link:hover {
 
 body.dark-mode .nav-link:visited {
     color: violet;
+}
+
+body.dark-mode .link {
+    color: blue
 }
