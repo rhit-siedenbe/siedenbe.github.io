@@ -25,7 +25,7 @@ nav.append(ul);
 
 let toggleButton = document.createElement("button");
 toggleButton.id = "theme-toggle";
-toggleButton.textContent = "Toggle Dark Mode";
+toggleButton.textContent = "Toggle Dark Mode ";
 toggleButton.style.marginLeft = "20px";
 nav.append(toggleButton);
 
