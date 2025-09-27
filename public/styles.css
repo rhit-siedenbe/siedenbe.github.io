@@ -21,6 +21,14 @@
 }
 
 body {
-    background-color: black;
+    background-color: #333333;
     color: white;
+}
+#name {
+    text-align: center;
+}
+
+#selfie {
+    width: 100px;
+    height: 100px;
 }
